@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "Canaro-Light";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/Canaro-Light-Regular.eot");
+  src: url("fonts/Canaro-Light-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Canaro-Light-Regular.woff") format("woff"),
+    url("fonts/Canaro-Light-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Canaro-Light";
+  font-weight: normal;
+  font-style: italic;
+  src: url("fonts/Canaro-Light-Italic.eot");
+  src: url("fonts/Canaro-Light-Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Canaro-Light-Italic.woff") format("woff"),
+    url("fonts/Canaro-Light-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gafata";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/Gafata-Regular_Std.otf") format("opentype");
+}
+
+
+body {
+  font-family: "Canaro-Light", sans-serif;
+  padding: 2rem;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+a:link, a:visited, a:active {
+  color: #000000;
+}
+
+a:hover, a:focus {
+  /*color: #800000;*/
+  color: #822300;
+}
+
+.top {
+  width: 100%;
+  height: 1em;
+  background-color: #800000;
+}
+
+h1.title {
+  font-family: "Gafata", serif;
+  color: #800000;
+  font-size: 4rem;
+}
+
+h1 {
+  font-family: "Gafata", serif;
+  color: #800000;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h4 {
+  margin-bottom: 0.25em;
+}
+
+nav {
+  margin-bottom: 1em;
+}
+
+nav a {
+  font-size: 0.8em;
+  text-decoration: none;
+  margin: 0 1em 1em 0;
+  padding: 1em;
+  background-color: white;
+  border: 2px solid #999999;
+}
+
+nav a:first-of-type {
+  margin-left: 0;
+}
+
+nav a:link, nav a:visited, nav a:active {
+  color: #999999;
+}
+
+nav a:focus, nav a:hover {
+  color: #800000;
+  border-color: #800000;
+}
+
+nav a.active {
+  color: #800000;
+  border-color: #800000;
+}
+
+
+section {
+  margin: 3em 0;
+  padding: 0.5em 0;
+  border-top: 2px solid #822300;
+}
+
+section .wrapper {
+  display: inline-block;
+  vertical-align: text-top;
+  margin: 1em 2em 2em 0;
+}
+
+
+section .box {
+  padding: 1em;
+  border: 1px solid #999999;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+.color-box {
+  display: inline-block;
+  padding: 0.5em;
+  width: 10em;
+  text-align: center;
+  color: white;
+}
+
+.red {
+  background-color: #800000;
+}
+
+.dark-red{
+  background-color: #490003;
+}
+
+.brick{
+  background-color: #822300;
+}
+
+.beige{
+  background-color: #CEB797;
+}
+
+.black {
+  background-color: black;
+}
+
+.dark-grey {
+  background-color: #333333;
+}
+
+.middle-grey {
+  background-color: #999999;
+}
+
+#forms .code-line {
+  display: block;
+  margin: 0;
+}
+
+label {
+
+}
+
+input {
+  display: block;
+  font-size: 1em;
+  padding: 0.5em;
+  border: 1px solid #999999;
+
+  
+}
+
+#dropdown-h4 {
+  margin-top: 0;
+}
+
+select {
+  font-size: 1em;
+  padding: 0.5em;
+  border: 1px solid #999999;
+
+}
+
+option {
+  font-family: "Canaro-Light", sans-serif;
+}
+
+#search-bar {
+  display: inline-block;
+}
+
+a.button {
+  font-size: 0.75rem;
+  display: inline-block;
+  padding: 0.80em 1em 0.65em 1em;
+  color: black;
+  background-color: #FFFFFF;
+  border: 1px solid #999999;  
+  text-decoration: none;
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
+}
+a.button:hover, a.button:focus {
+  background-color: #999999;
+  color: white;
+  
+}
+
+a.cta {
+  color: #800000;
+  background-color: white;
+  border: 1px solid #800000;
+}
+
+a.cta:hover, a.cta:focus {
+  background-color: #800000;
+  color: white;
+}
+
+a.round {
+  border: 1px solid #EEEEEE;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  border-radius: 10rem;
+
+  -webkit-transition: border 0.1s ease-out;
+  transition: border 0.1s ease-out;
+
+}
+
+a.round:hover, a.round:focus {
+  /*border: 1px solid #9D6606;*/
+  border: 1px solid #333333;
+  background-color: white;
+  color: black;
+}
+
+a.img-link:hover, a.img-link:focus {
+  opacity: 0.8;
+}
+
+/* Border Box Model */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+a.bread-crumbs{
+  font-size: 0.7rem;
+  text-decoration: none;
+
+}
