@@ -40,8 +40,7 @@ a:link, a:visited, a:active {
 }
 
 a:hover, a:focus {
-  /*color: #800000;*/
-  color: #822300;
+  color: #E32805;
 }
 
 .top {
@@ -215,9 +214,9 @@ a.button {
   font-size: 0.75rem;
   display: inline-block;
   padding: 0.80em 1em 0.65em 1em;
-  color: black;
-  background-color: #FFFFFF;
-  border: 1px solid #999999;  
+  color: #800000;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #800000;  
   text-decoration: none;
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
@@ -225,39 +224,26 @@ a.button {
   -moz-border-radius: 2em; 
   -webkit-border-radius: 2em; 
   border-radius: 2em;  
-
-  opacity: 0.4;
-  filter: alpha(opacity=40);
-
 }
 a.button:hover, a.button:focus {
-  background-color: #999999;
-  color: white;
-
-  opacity: 1;
-  filter: alpha(opacity=100);
-  
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #999999;
+  color: #999999;
 }
 
 a.cta {
-  color: #800000;
-  background-color: white;
-  border: 1px solid #800000;
+  color: white;
+  background-color: #800000;
+  border: none;
 
   -moz-border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
-
-  opacity: 0.4;
-  filter: alpha(opacity=40);
 }
 
 a.cta:hover, a.cta:focus {
-  background-color: #800000;
+  background-color: rgba(128, 0, 0, 0.8);
   color: white;
-
-  opacity: 1;
-  filter: alpha(opacity=100);
 }
 
 a.round {
