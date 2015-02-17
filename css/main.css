@@ -25,6 +25,11 @@
   src: url("fonts/Gafata-Regular_Std.otf") format("opentype");
 }
 
+/* Border Box Model */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
 
 body {
   font-family: "Canaro-Light", sans-serif;
@@ -102,7 +107,7 @@ nav a.active {
 }
 
 .main-nav{
-  margin: 0;
+  margin: 1em 0;
   display: inline-block;
 }
 
@@ -216,7 +221,7 @@ a.button {
   padding: 0.80em 1em 0.65em 1em;
   color: #800000;
   background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid #800000;  
+  border: 2px solid #800000;  
   text-decoration: none;
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
@@ -227,8 +232,8 @@ a.button {
 }
 a.button:hover, a.button:focus {
   background-color: rgba(255, 255, 255, 0);
-  border-color: #999999;
-  color: #999999;
+  border-color: rgba(128, 0, 0, 0.8);
+  color: rgba(128, 0, 0, 0.8);
 }
 
 a.cta {
@@ -268,11 +273,6 @@ a.img-link:hover, a.img-link:focus {
   opacity: 0.8;
 }
 
-/* Border Box Model */
-*, *::after, *::before {
-  box-sizing: border-box;
-}
-
 a.bread-crumbs{
   font-size: 0.7rem;
   text-decoration: none;
@@ -281,3 +281,21 @@ a.bread-crumbs{
 a.bread-crumbs:hover, a.bread-crumbs:focus {
   color: #E32805;
 }
+
+#groupings .box {
+  width: 100%;
+}
+
+#groupings nav {
+  position: relative;
+}
+
+.search-bar {
+  position: absolute;
+  right: 0;
+}
+
+
+
+
+
