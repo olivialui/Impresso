@@ -288,7 +288,7 @@ a.bread-crumbs:hover, a.bread-crumbs:focus {
   margin:0;
 }
 
-#groupings nav {
+nav .in-header {
   position: relative;
   width: 50%;
   display: inline-block;
