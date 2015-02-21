@@ -7,18 +7,49 @@
 [class^='col-']{
 	float: left;
 	padding 0;
+	text-align: center;
+}
+
+.col-1of10{
+	width: 10%;
+}
+
+@media (max-width: 10em){
+	.col-1of10{
+		width: 10%;
+	}
 }
 
 .col-2of10{
 	width:  20%;
 }
 
-@media (max-width:: 20em){
+@media (max-width: 20em){
 	.col-2of10{
 		width: 20%;
 	}
 }
+
+.col-3of10{
+	width: 30%;
+}
+
+@media (max-width: 30em){
+	.col-3of10{
+		width: 30%;
+	}
+}
 	
+.col-4of10{
+	width: 40%;
+}
+
+@media (max-width: 40em){
+	.col-4of10{
+		width:40%;
+	}
+}
+
 .col-5of10{
 	width: 50%;
 }
@@ -26,6 +57,47 @@
 @media (max-width: 50em){
 	.col-5of10{
 		width: 100%;
+	}
+}
+
+
+.col-6of10{
+	width: 60%;
+}
+
+@media (max-width: 60em){
+	.col-6of10{
+		width: 60%;
+	}
+}
+
+.col-7of10{
+	width: 70%;
+}
+
+@media (max-width: 70em){
+	.col-7of10{
+		width: 70%;
+	}
+}
+
+.col-8of10{
+	width: 80%;
+}
+
+@media (max-width: 80em){
+	.col-8of10{
+		width: 80%;
+	}
+}
+
+.col-9of10{
+	width: 90%;
+}
+
+@media (max-width: 90em){
+	.col-9of10{
+		width: 90%;
 	}
 }
 
