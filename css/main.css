@@ -285,6 +285,7 @@ a.bread-crumbs:hover, a.bread-crumbs:focus {
   position: relative;
   background-color: rgba(0, 0, 0, 0.75);
   padding: 1em;
+  margin:0;
 }
 
 #groupings nav {
