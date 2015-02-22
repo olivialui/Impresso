@@ -19,12 +19,6 @@
 	width:  20%;
 }
 
-@media (max-width: 40em){
-	.col-2of10{
-		width: 100%;
-	}
-}
-
 .col-3of10{
 	width: 30%;
 }
@@ -39,11 +33,6 @@
 	width: 50%;
 }
 
-@media (max-width: 45rem){
-	.col-5of10{
-		width: 100%;
-	}
-}
 
 @media (max-width: 35.438rem) {
 	.main-nav {
@@ -59,6 +48,27 @@
 	}
 }
 
+
+@media (max-width: 40rem){
+	.col-2of10{
+		width: 100%;
+	}
+}
+
+
+}
+@media (max-width: 45rem){
+	.col-5of10{
+		width: 100%;
+	}
+}
+
+@media (max-width: 20rem){
+
+	.col-6of10{
+	width: 100%;
+	}
+}
 
 .col-6of10{
 	width: 60%;
