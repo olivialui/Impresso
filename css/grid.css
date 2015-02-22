@@ -50,8 +50,12 @@
 		display: none;
 	}
 
-	.search-bar {
+	#search-button {
 		display: none;
+	}
+
+	#hamburger-menu {
+		display: inline-block;
 	}
 }
 

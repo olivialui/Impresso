@@ -30,6 +30,18 @@
   box-sizing: border-box;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-float {
+  clear: both;
+}
+
 
 body {
   font-family: "Canaro-Light", sans-serif;
@@ -84,9 +96,17 @@ h4 {
   min-height: 3.5rem;
 }
 
+.left-header {
+  float: left;
+}
+
+.right-header {
+  float: right;
+}
+
 nav {
   /*margin-bottom: 1em;*/
-  width: 100%;
+  /*width: 100%;*/
   text-align: left;
 }
 
@@ -113,43 +133,18 @@ nav a.active {
   color: white;
 }
 
-nav .logo {
-  position: absolute;
-  padding: 0;
-
-  /* vertical center */
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);  
-}
-
-.logo-wrapper {
-  display: inline-block;
-  min-width: 60px;
-}
-
 .main-nav{
   margin: 1em 0;
   display: inline-block;
 }
 
-.sub-menu {
-  width: 100%;
-}
-
-.search-cart-wrapper {
+.sub-nav {
+  margin: 1em 1em 1em 0;
   display: inline-block;
-  width: 100%;
-  text-align: right;
 }
 
-.search-bar{
-  position: absolute;
-  right: 5em;
-  /* vertical center */
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+#hamburger-menu {
+  display: none;
 }
 
 .search-bar input {
@@ -161,20 +156,6 @@ nav .logo {
 .search-bar .button {
   font-size: 0.64em;
 }
-
-.cart {
-  position: absolute;
-  right: 2em;
-  /* vertical center */
-  top: 55%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-
-
-
-
 
 
 section {
