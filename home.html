@@ -7,7 +7,11 @@
   	<link href="css/grid.css" rel="stylesheet">
   </head>
   <body>
+		<header>
+			<nav>Header goes here</nav>
+		</header>
 
+<!--
   	<div class="impresso-header">
   		<nav>
   			<div class="col-5of10">
@@ -21,79 +25,107 @@
 	  			<div class="main-nav">
 	  				<a href="#">EVENTS</a>
 	  			</div>
-  			</div><!--End col-5of10 -->
+  			</div>
   		</nav>
+
   		<div class="col-5of10">
 	  		<div class="search-bar">
 	  			<from method="post" action="#">
 	  				<input type="search" id="search-bar" placeholder="">
 	  				<a class="button">SEARCH</a>
 	  			</form>
-	  		</div><!--End search-bar-->
+	  		</div>
 	  	</div>
-  	</div><!--End impresso-header-->
+  	</div><
 
+  -->
+  <div class="grid">
 
 
 	<!--Begin Content-->
-	
+	<section id="about-impresso">
 	<h2>Impresso Coffee</h2>
-	<div class="grid">
+		<div class="grid">
+			<div class="col-5of10">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dolor a felis consectetur vehicula vel eu orci. Praesent congue facilisis tortor, sit amet vulputate tellus facilisis nec. Donec rhoncus dictum nibh, sit amet iaculis dolor bibendum vel. Etiam fermentum iaculis justo. Duis fermentum massa ut pulvinar dapibus. Suspendisse at mi lobortis, tincidunt justo vitae, congue mauris. Morbi tempus diam ac cursus blandit. Donec dapibus suscipit malesuada. Vivamus in consectetur era.</p>
+			</div><!--End col-5of10-->
+		</div><!--End grid-->
+	</section>
+
+
+	<section id="prouct-listing">
+		<h2>Product Listing</h2>
+		<div class="grid">
+			<div class="col-2of10">
+				<img src="img/sample.png" alt="product image">
+				<p>Espresso Machine</p>
+			</div>
+			<div class="col-2of10">
+				<img src="img/sample.png" alt="product image">
+				<p>Moka Pot</p>
+			</div>
+			<div class="col-2of10">
+				<img src="img/sample.png" alt="product image">
+				<p>Pod Coffee</p>
+			</div>
+			<div class="col-2of10">
+				<img src="img/sample.png" alt="product image">
+				<p>French Press</p>
+			</div>
+			<div class="col-2of10">
+				<img src="img/sample.png" alt="product image">
+				<p>Aero Press</p>
+			</div>
+		</div><!--End grid-->
+	</section>
+
+	<section id="events">
 		<div class="col-5of10">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dolor a felis consectetur vehicula vel eu orci. Praesent congue facilisis tortor, sit amet vulputate tellus facilisis nec. Donec rhoncus dictum nibh, sit amet iaculis dolor bibendum vel. Etiam fermentum iaculis justo. Duis fermentum massa ut pulvinar dapibus. Suspendisse at mi lobortis, tincidunt justo vitae, congue mauris. Morbi tempus diam ac cursus blandit. Donec dapibus suscipit malesuada. Vivamus in consectetur era.</p>
-		</div><!--End col-5of10-->
-	</div><!--End grid-->
+			<h2>Live Tasting</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dolor a felis consectetur vehicula vel eu orci. Praesent congue facilisis tortor, sit amet vulputate tellus facilisis nec.</p>
+		</div>
+	</section>
 
-
-	<h2>Product Listing</h2>
-	<div class="grid">
-		<div class="col-2of10">
-			<img src="img/sample.png" alt="product image">
-			<p>hgfkh</p>
-		</div>
-		<div class="col-2of10">
-			<img src="img/sample.png" alt="product image">
-		</div>
-		<div class="col-2of10">
-			<img src="img/sample.png" alt="product image">
-		</div>
-		<div class="col-2of10">
-			<img src="img/sample.png" alt="product image">
-		</div>
-		<div class="col-2of10">
-			<img src="img/sample.png" alt="product image">
-		</div>
-	</div><!--End grid-->
-
-
+</div>
 	<!--End Content-->
 
 
 
-
-
 	<!--Begin Footer-->
-	<div class="grid">
-		<div class="impresso-header"><!--[COMMENT: Not sure if you wanna make another class]-->
-			<div class="col-2of10">
-				<form method="post" action="#">
-					<input type="text" id="form-name" placeholder="Name">
-					<input type="text" id="form-email" placeholder="Email">
-					<textarea rows="5" cols="27" type="text" id="form-comment" placeholder="Comment"></textarea>
-				</form>
-			</div><!--End col-2of10-->
+	<div class="impresso-header">
+	<div class="col-2of10">
+		<section id="contact-us">
+			<h3>Contact Us</h3>
+			<form method="post" action="#">
+				<input type="text" id="form-name" placeholder="Name">
+				<input type="text" id="form-email" placeholder="Email">
+				<textarea rows="5" cols="27" type="text" id="form-comment" placeholder="Comment"></textarea>
+				<p><a class="button" href="">Submit</a></p>
+			</form>
+		</section>
+	</div>
 
-			<div class="col-5of10">
-				<h3>Site Map</h3>
-				<p><a href="#"> Home</a></p>
-				<p><a href="#"> Product</a></p>
-				<p><a href="#"> Events</a></p>
-				<p><a href="#"> Cart</a></p>
-			</div><!--col-5of10-->
-		</div><!--End impresso-header-->
-	</div><!--End grid-->
+	<div class="col-6of10">
+		<section id="site-map">
+			<h3>Site Map</h3>
+			<p><a href="#"> Home</a></p>
+			<p><a href="#"> Product</a></p>
+			<p><a href="#"> Events</a></p>
+			<p><a href="#"> Cart</a></p>
+		</section>
+	</div>
+
+	<div class="col-2of10">
+		<section id="social-media">
+			<h3>Social Media</h3>
+			<a class="button round" href=""></a>
+			<a class="button round" href=""></a>
+			<a class="button round" href=""></a>
+			<a class="button round" href=""></a>
+		</section>
+	</div>
+	</div><!--End impresso-header-->
 	<!--End Footer-->
-
 
 
   </body>

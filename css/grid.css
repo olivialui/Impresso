@@ -24,7 +24,7 @@
 	width:  20%;
 }
 
-@media (max-width: 30em){
+@media (max-width: 40em){
 	.col-2of10{
 		width: 100%;
 	}

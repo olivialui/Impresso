@@ -312,4 +312,29 @@ nav .in-header {
 }
 
 
+/*Begin home.html's css*/
+
+#contact-us{
+  text-align: left;
+}
+
+#contact-us .button {
+  font-size: 0.75em;
+}
+
+
+#site-map {
+  text-align: left;
+}
+
+#social-media h3{
+  text-align: left;
+}
+
+
+
+
+
+
+
 
