@@ -361,7 +361,7 @@ nav .in-header {
 /*Begin home.html's css*/
 
 .about-image{  
-  background: url("img/bg-placeholer.jpg");
+  background: url("../img/bg-placeholer.jpg");
 }
 
 #contact-us{
