@@ -346,7 +346,16 @@ nav .in-header {
   text-align: center;
 }
 
+.product-img {
+  height: auto; 
+  width: auto;
+  max-width: 100%;
+  border: 1px solid #888888;
+}
 
+.item-details{
+  text-align: left;
+}
 
 
 /*Begin home.html's css*/
