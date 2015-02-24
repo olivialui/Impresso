@@ -97,11 +97,11 @@
 
 
 }
-@media (max-width: 20rem){
+@media (max-width: 10rem){
 
-/*	.col-6of10{
-	width: 100%;
-	}*/
+	.col-3of10{
+		width: 100%;
+	}
 }
 
 
