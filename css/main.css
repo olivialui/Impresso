@@ -261,36 +261,42 @@ option {
 }
 
 a.button {
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: inline-block;
   padding: 0.80em 1em 0.65em 1em;
-  color: #333333;
+  /*color: #333333;*/
+  color: #800000;
   background-color: white;
-  border: 1px solid #DDDDDD;  
+  border: 2px solid #800000;  
   text-decoration: none;
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
+
+  -webkit-transition: border-color 0.1s ease-out;
+  transition: border-color 0.1s ease-out;
 
   -moz-border-radius: 2em; 
   -webkit-border-radius: 2em; 
   border-radius: 2em;  
 }
 a.button:hover, a.button:focus {
-  background-color: #DDDDDD;
+  /*background-color: #DDDDDD;*/;
+  border-color: rgba(128, 0, 0, 0.5);
 }
 
 a.cta {
   color: white;
   background-color: #800000;
-  border: none;
+  /*border: none;*/
 
-  -moz-border-radius: 0.5em;
+/*  -moz-border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
-  border-radius: 0.5em;
+  border-radius: 0.5em;*/
 }
 
 a.cta:hover, a.cta:focus {
   background-color: rgba(128, 0, 0, 0.8);
+  border-color: rgba(128, 0, 0, 0.2);
   color: white;
 }
 
