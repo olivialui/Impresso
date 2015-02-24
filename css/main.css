@@ -341,6 +341,10 @@ nav .in-header {
   display: inline-block;
 }
 
+.product-list-item{
+  display: inline-block;
+  text-align: center;
+}
 
 
 
