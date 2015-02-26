@@ -78,6 +78,13 @@
 	#hamburger-menu {
 		display: inline-block;
 	}
+
+	#logo>img {
+		position: absolute;
+		top: 1em;
+		left: 50%;
+		margin-left: -30px;
+	}
 }
 
 
