@@ -159,9 +159,10 @@ nav a.active {
 
 
 section {
-  margin: 3em 0;
+  /*margin: 3em 0;
   padding: 0.5em 0;
   border-top: 2px solid #822300;
+  */
 }
 
 section .wrapper {
@@ -361,7 +362,9 @@ nav .in-header {
 /*Begin home.html's css*/
 
 .about-image{  
-  background: url("../img/bg-placeholer.jpg");
+  background: url("../img/coffee-beans-x1.jpg");
+  margin: 0;
+  padding: 1em;
 }
 
 #contact-us{
@@ -389,7 +392,7 @@ nav .in-header {
   vertical-align: bottom;
   position: relative;
   background-color: rgba(51, 51, 51, 0.5);
-  padding: 0;
+  padding: 2em;
   margin:0;
   display: block;
   clear: both;
