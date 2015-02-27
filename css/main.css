@@ -46,6 +46,7 @@
 body {
   font-family: "Canaro-Light", sans-serif;
   padding: 0;
+  margin: 0;
 }
 
 p {
@@ -364,7 +365,13 @@ nav .in-header {
 .about-image{  
   background: url("../img/coffee-beans-x1.jpg");
   margin: 0;
-  padding: 1em;
+  padding: 2em;
+}
+
+.event{
+  background: url("../img/coffee-beans-x1.jpg");
+  margin:  0;
+  padding: 2em;
 }
 
 #contact-us{
