@@ -169,12 +169,13 @@ section {
 section .wrapper {
   display: inline-block;
   vertical-align: text-top;
-  margin: 1em 2em 2em 0;
+  margin: 0.5em 0.5em 1em 0.5em;
+  padding: 0.5em;
 }
 
 
 section .box {
-  padding: 1em;
+  padding: 2em;
   border: 1px solid #999999;
 }
 
@@ -353,7 +354,7 @@ nav .in-header {
   height: auto; 
   width: auto;
   max-width: 100%;
-  padding: 0.5em;
+  padding: 0.5em ;
 }
 
 .product-img {
@@ -373,7 +374,8 @@ nav .in-header {
   background: url("../img/coffee-beans-x1.jpg");
   margin: 0;
   padding: 10em;
-  max-width: 100%
+  max-width: 100%;
+  color: white;
 }
 
 
@@ -394,7 +396,8 @@ nav .in-header {
 .event-tasting{
   background: url("../img/Tasting.jpg");
   padding: 10em;
-  max-width: 100%
+  max-width: 100%;
+  color: white;
 }
 
 #contact-us{
@@ -421,7 +424,7 @@ nav .in-header {
 .impresso-footer{
   vertical-align: bottom;
   position: relative;
-  background-color: rgba(51, 51, 51, 0.5);
+  background-color: rgba(51, 51, 51, 1);
   padding: 2em;
   margin:0;
   display: block;
@@ -436,6 +439,23 @@ nav .in-header {
 }
 
 
+/*Product Listing pages*/
+
+.feature-product-category{
+  background-color: #800000;
+  color: white;
+}
+
+.feature-content{
+  padding: 3em;
+  text-align: left;
+}
+
+.espresso-feature-bg{
+  background: url("../img/espresso-feature-bg.jpg");
+  background-position: 80% 80%;
+  height: 50%;
+}
 
 
 
