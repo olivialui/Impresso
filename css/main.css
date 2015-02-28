@@ -348,11 +348,18 @@ nav .in-header {
   text-align: center;
 }
 
+
+.product-categories {
+  height: auto; 
+  width: auto;
+  max-width: 100%;
+  padding: 0.5em;
+}
+
 .product-img {
   height: auto; 
   width: auto;
   max-width: 100%;
-  border: 1px solid #888888;
 }
 
 .item-details{
@@ -365,13 +372,29 @@ nav .in-header {
 .about-image{  
   background: url("../img/coffee-beans-x1.jpg");
   margin: 0;
-  padding: 2em;
+  padding: 10em;
+  max-width: 100%
 }
 
-.event{
-  background: url("../img/coffee-beans-x1.jpg");
-  margin:  0;
+
+
+.event-espresso{
+  background: url("../img/Wood.jpg");
+  padding: 2.3em;
+  color: white;
+}
+
+.event-howtobrew{
+  background: url("../img/Chalkboard.jpg");
   padding: 2em;
+  color: white;
+}
+
+
+.event-tasting{
+  background: url("../img/Tasting.jpg");
+  padding: 10em;
+  max-width: 100%
 }
 
 #contact-us{
