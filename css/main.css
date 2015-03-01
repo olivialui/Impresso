@@ -454,9 +454,12 @@ nav .in-header {
 }
 
 .espresso-feature-bg{
-  background: url("../img/espresso-feature-bg.jpg");
-  background-position: 80% 80%;
-  height: 50%;
+  background: url("../img/espresso-shot.jpeg");
+  margin: 0;
+  padding: 10em;
+  max-width: 100%;
+  color: white;
+  background-position: 80% 60%;
 }
 
 

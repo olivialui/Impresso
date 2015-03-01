@@ -19,8 +19,8 @@
 	width:  20%;
 }
 
-.col-25of10{
-	width: 25%;
+.col-33of10{
+	width: 33%;
 }
 
 .col-3of10{
@@ -95,6 +95,12 @@
 @media (max-width: 40rem){
 
 	.col-2of10{
+		display: inline-block;
+		clear: both;
+		width: 100%;
+	}
+
+	.col-33of10{
 		display: inline-block;
 		clear: both;
 		width: 100%;
