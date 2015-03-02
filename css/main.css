@@ -516,6 +516,29 @@ nav .in-header {
   background-position: 80% 60%;
 }
 
+.mokapot-feature-bg{
+  background: url("../img/mokapot-feature.jpg");
+  margin: 0;
+  padding: 10em;
+  max-width: 100%;
+  color: black;
+  background-position: 0% 60%;
+}
 
+.pod-feature-bg{
+  background: url("../img/coffee-capsule.jpg");
+  margin: 0;
+  padding: 10em;
+  max-width: 100%;
+  color: white;
+  background-position: 80% 40%;
+}
 
-
+.frenchpress-feature-bg{
+  background: url("../img/frenchpress-feature.jpg");
+  margin: 0;
+  padding: 10em;
+  max-width: 100%;
+  color: black;
+  background-position: 20% 60%;
+}
