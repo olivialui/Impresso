@@ -2,12 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Item Detail</title>
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/grid.css">		
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/iconmoon.css">	
 	</head>
 	<body>
-		<header class="impresso-header">
+	  	<header class="impresso-header">
 			<nav class="left-header">
 				<a id="hamburger-menu" href=""><img src="" alt="The hamburger menu" width="60px" height="40px"></a>
 				<a id="logo" href="home.html"><img src="" alt="This is the Impresso Logo" width="60px" height="60px"></a>
@@ -24,40 +26,58 @@
 			</nav>
 			<div class="right-header">
 				<div id="search-button" class="sub-nav">
-					<img src="" alt="Your search button" width="40px" height="40px">
+					<span class="icon-search"></span>
 				</div>
 				<div id="shopping-cart" class="sub-nav">
-					<img src="" alt="Your shopping cart" width="40px" height="40px">
+					<!-- <img src="" alt="Your shopping cart" width="40px" height="40px"> -->
+					
+					<span class="icon-cart"></span>
+				
 				</div>
 			</div>
 			<div class="clear-float"></div>
 	  	</header>
 
+	  	<section id="clear-header">
+	  		
+	  	</section>
 
-		<section id="item-title">
-			<p>Item title and nav goes here</p>
+		<section id="item-title" class="grid">
+			<div class="col-10of10">
+				<h1>Saeco Minuto</h1>
+				<a class="bread-crumbs">Home</a> - <a class="bread-crumbs">Espresso Machines</a> - <a class="bread-crumbs">Saeco Minuto</a>
+			</div>
 		</section>
 
 		<section id="item-description">
 			<div class="grid">
-			<div class="col-5of10">
-			<div class="item-details">Item details and description go here</div>
-			<p class="item-details">Brand - Model</p>
-			<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicul</p>
-			<p class="item-details">Price: $19.99</p>
+				<div class="col-5of10">
+					<div class="item-details">
+						<h3>Proin sodales pulvinar</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicul
+						</p>
+						<ul>
+							<li>Sed ut perspiciatis unde</li>
+							<li>Omnis iste natus error</li>
+							<li>Sit voluptatem accusantium doloremque</li>
+							<li>Totam rem aperiam</li>
+						</ul>
+						<div class="item-price">$194.99</div>
+						<a class="button cta" href="checkout-1.html">ADD TO CART</a>
+					</div>
+					
+				</div> <!--col-5of10-->
 
-			<a class="button cta " href="checkout-1.html">ADD TO CART</a>
-		</div> <!--col-5of10-->
-
-		<div class="col-5of10">
-			<figure>
-				<img alt="" class="product-img" width="700" height="700px" src="img/bg-placeholer.jpg">
-			</figure>
-		</div>
-		</div><!--grid-->
+				<div class="col-5of10">
+					<figure>
+						<img alt="" class="product-img"  src="img/saeco-minuto-pure-transparent.png">
+					</figure>
+				</div>
+			</div><!--grid-->
 		</section>
 
-		<section id="item-ratings">
+<!-- 		<section id="item-ratings">
+			<h3>Customer Ratings</h3>
 			<div>Average rating goes here</div>
 			<select>
 				<option value="Newest">Newest</option>
@@ -80,7 +100,7 @@
 			<div>
 				<span>Review goes here</span> <span>Rating goes here</span>
 			</div>
-		</section>
+		</section> -->
 
 
 

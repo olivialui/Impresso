@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
   	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<title>Impresso</title>
   	<link href="css/main.css" rel="stylesheet">
   	<link href="css/grid.css" rel="stylesheet">
@@ -15,7 +16,7 @@
 			<a id="logo" href="home.html"><img src="" alt="This is the Impresso Logo" width="60px" height="60px"></a>
 
 			<div class="main-nav">
-				<a class="active" href="home.html#product-categories">PRODUCTS</a>
+				<a href="home.html#product-categories">PRODUCTS</a>
 			</div>
 			<div class="main-nav">
 				<a href="home.html#events">EVENTS</a>
@@ -26,10 +27,13 @@
 		</nav>
 		<div class="right-header">
 			<div id="search-button" class="sub-nav">
-				<img src="" alt="Your search button" width="40px" height="40px">
+				<span class="icon-search"></span>
 			</div>
 			<div id="shopping-cart" class="sub-nav">
-				<img src="" alt="Your shopping cart" width="40px" height="40px">
+				<!-- <img src="" alt="Your shopping cart" width="40px" height="40px"> -->
+				
+				<span class="icon-cart"></span>
+			
 			</div>
 		</div>
 		<div class="clear-float"></div>
@@ -47,7 +51,7 @@
 			</div><!--End col-5of10-->
 		</div><!--End grid-->
 	</section>
-</div>
+	</div>
 
 
 
@@ -55,7 +59,7 @@
 		<h2>Product Categories</h2>
 		<div class="grid">
 			<div class="col-2of10">
-				<a href="product-listing.html">
+				<a href="espresso-product-listing.html">
 					<img class="product-categories" src="img/Cafe-aroma.jpg" alt="product image"></a>
 				<p>Espresso Machine</p>
 			</div>
@@ -86,7 +90,7 @@
 		<div class="col-5of10 event-espresso">
 			<h2>The Espresso Machine </h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dolor a felis consectetur vehicula vel eu orci. Praesent congue facilisis tortor, sit amet vulputate tellus facilisis nec.Duis sed dolor a felis consectetur vehicula vel eu orci. Praesent congue facilisis tortor, sit amet vulputate tellus facilisis nec. Praesent congue facilisis tortor, sit amet vulputate tellus facilisis nec.</p>
-			<a class="button" href="">Learn More</a>
+			<a class="button" href="">LEARN MORE</a>
 		</div>		<div class="col-5of10 event-howtobrew">
 			<h2>How to brew</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dolor a felis consectetur vehicula vel eu orci. Praesent congue facilisis tortor, sit amet vulputate tellus facilisis nec.</p>
@@ -114,7 +118,7 @@
 				<input type="text" id="form-name" placeholder="Name">
 				<input type="text" id="form-email" placeholder="Email">
 				<textarea rows="5" cols="27" type="text" id="form-comment" placeholder="Comment"></textarea>
-				<p><a class="button" href="">Submit</a></p>
+				<p><a class="button" href="">SUBMIT</a></p>
 			</form>
 		</section>
 		</div>
@@ -134,24 +138,16 @@
 	<div class="col-3of10">
 		<section id="social-media">
 			<h3>Social Media</h3>
-		<!--
-			<a class="button round" href="">Facebook</a>
-			<a class="button round" href="">Twitter</a>
-			<a class="button round" href="">Instagram</a>
-			<a class="button round" href="">etc</a>
-		-->
-			<a class="button round" href="">
+			<a href="">
 				<span class="icon-twitter"></span>
 			</a>
-			<a class="button round" href="">
+			<a href="">
 				<span class="icon-facebook3"></span>
 			</a>
-			<a class="button round" href="">
+			<a href="">
 				<span class="icon-mail"></span>
 			</a>
-			<a class="button round" href="">
-				<span class="icon-arrow-left2"></span>
-			</a>
+
 		</section>
 	</div>
 	</div>

@@ -42,14 +42,16 @@
   clear: both;
 }
 
+body, input, textarea {
+  font-family: "Canaro-Light", sans-serif;
+}
 
 body {
-  font-family: "Canaro-Light", sans-serif;
   padding: 0;
   margin: 0;
 }
 
-p {
+p, li {
   font-size: 0.9em;
 }
 
@@ -106,6 +108,11 @@ h4 {
   float: right;
 }
 
+#clear-header {
+  padding: 0;
+  height: 5em;
+}
+
 nav {
   /*margin-bottom: 1em;*/
   /*width: 100%;*/
@@ -143,6 +150,8 @@ nav a.active {
 .sub-nav {
   margin: 1em 1em 1em 0;
   display: inline-block;
+  color: white;
+  font-size: 1.5em;
 }
 
 #hamburger-menu {
@@ -227,13 +236,16 @@ section code {
 }
 
 label {
-
+  font-size: 0.8em;
+  color: #CCCCCC;
 }
 
-input {
+input, textarea{
+
   display: block;
-  font-size: 1em;
+  font-size: 0.8em;
   padding: 0.5em;
+  margin: 0.2em;
   border: 1px solid #999999;
 
   -moz-border-radius: 0.5em;
@@ -265,13 +277,13 @@ option {
 }
 
 a.button {
-  font-size: 1rem;
+  font-size: 0.8rem;
   display: inline-block;
-  padding: 0.80em 1em 0.65em 1em;
+  padding: 0.85em 1.1em 0.65em 1.1em;
   /*color: #333333;*/
   color: #800000;
-  background-color: white;
-  border: 2px solid #800000;  
+  /*background-color: rgba(128, 0, 0, 0.7);*/
+  border: 1px solid #800000;  
   text-decoration: none;
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
@@ -279,14 +291,13 @@ a.button {
   -webkit-transition: border-color 0.1s ease-out;
   transition: border-color 0.1s ease-out;
 
-  -moz-border-radius: 2em; 
-  -webkit-border-radius: 2em; 
-  border-radius: 2em;  
+  -moz-border-radius: 0.5em; 
+  -webkit-border-radius: 0.5em; 
+  border-radius: 0.5em;  
 }
 a.button:hover, a.button:focus {
   /*background-color: #DDDDDD;*/;
-  border-color: rgba(128, 0, 0, 0.8);
-  color: rgba(128, 0, 0, 0.8);
+  background-color: rgba(128, 0, 0, 0.1);
 }
 
 a.cta {
@@ -306,7 +317,8 @@ a.cta:hover, a.cta:focus {
 }
 
 a.round {
-  border: 1px solid #EEEEEE;
+  background-color: white;
+
   -webkit-border-radius: 10rem;
   -moz-border-radius: 10rem;
   border-radius: 10rem;
@@ -318,9 +330,9 @@ a.round {
 
 a.round:hover, a.round:focus {
   /*border: 1px solid #9D6606;*/
-  border: 1px solid #333333;
+  /*border: 1px solid #333333;*/
   background-color: white;
-  color: black;
+  color: #222222;
 }
 
 a.img-link:hover, a.img-link:focus {
@@ -366,8 +378,44 @@ nav .in-header {
 }
 
 .item-details{
+  padding: 6em 2em;
+  max-width: 33em;
   text-align: left;
+  margin: 0 auto;
 }
+
+.item-price {
+  font-size: 1.9em;
+  padding-right: 6em;
+  display: inline;
+  vertical-align: -0.1em;
+}
+
+.item-ratings {
+
+}
+
+.checkout-wrapper {
+  position: relative;
+  max-width: 64em;
+  margin: 0 auto;
+  border: 1px solid #CCCCCC;
+  padding: 1em;
+
+  border-radius: 0.5em;
+}
+
+#checkout-sign-in, #checkout-skip-sign-in {
+  text-align: left;
+  padding: 1em;
+  max-width: 25em;
+  margin: 0 auto;
+}
+
+.separator {
+  border-right: 1px solid #CCCCCC;
+}
+
 
 
 /*Begin home.html's css*/
@@ -378,9 +426,8 @@ nav .in-header {
   padding: 10em;
   max-width: 100%;
   color: white;
+
 }
-
-
 
 .event-espresso{
   background: url("../img/Wood.jpg");
@@ -418,8 +465,15 @@ nav .in-header {
   text-align: left;
 }
 
-#social-media .button {
-  font-size: 0.75em;
+#social-media a {
+  text-decoration: none;
+  margin: 0 0.2em;
+  font-size: 2em;
+  color: #AAAAAA;
+}
+
+#social-media a:hover {
+  color: white;
 }
 
 
