@@ -476,12 +476,14 @@ nav .in-header {
   background: url("../img/Wood.jpg");
   padding: 2.3em;
   color: white;
+  height: 20em
 }
 
 .event-howtobrew{
   background: url("../img/Chalkboard.jpg");
   padding: 2em;
   color: white;
+  height: 20em;
 }
 
 
