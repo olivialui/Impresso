@@ -283,9 +283,9 @@ a.button {
   display: inline-block;
   padding: 0.85em 1.1em 0.65em 1.1em;
   /*color: #333333;*/
-  color: #800000;
+  color: #fff;
   /*background-color: rgba(128, 0, 0, 0.7);*/
-  border: 1px solid #800000;  
+  border: 2px solid #fff;  
   text-decoration: none;
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
@@ -299,7 +299,7 @@ a.button {
 }
 a.button:hover, a.button:focus {
   /*background-color: #DDDDDD;*/;
-  background-color: rgba(128, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 a.cta {
@@ -585,3 +585,17 @@ nav .in-header {
   color: black;
   background-position: 20% 60%;
 }
+
+
+
+.thankyou-bg{
+  background: url("../img/Chalkboard.jpg");
+  margin: 0;
+  padding: 10em;
+  max-width: 100%;
+  color: white;
+  background-position: 20% 60%;
+}
+
+
+
