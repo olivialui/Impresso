@@ -245,7 +245,7 @@ input, textarea{
   display: block;
   font-size: 0.8em;
   padding: 0.5em;
-  margin: 0.2em;
+  margin: 0.2em 0.2em 0.7em 0.2em;
   border: 1px solid #999999;
 
   -moz-border-radius: 0.5em;
@@ -259,8 +259,10 @@ input, textarea{
 }
 
 select {
+  display: block;
   font-size: 1em;
   padding: 0.5em;
+  margin-bottom: 1em;
   border: 1px solid #999999;
 
   -moz-border-radius: 0.5em;
@@ -395,6 +397,20 @@ nav .in-header {
 
 }
 
+#checkout-nav {
+  border-top: 1px solid #CCCCCC;
+  margin: 1em;
+  padding: 1em;
+}
+
+#checkout-nav a.button {
+  float: left;
+}
+
+#checkout-nav a.cta {
+  float: right;
+}
+
 .checkout-wrapper {
   position: relative;
   max-width: 64em;
@@ -405,7 +421,10 @@ nav .in-header {
   border-radius: 0.5em;
 }
 
-#checkout-sign-in, #checkout-skip-sign-in {
+#checkout-sign-in, #checkout-skip-sign-in, 
+#checkout-billing-info, #checkout-shipping-info,
+#checkout-payment, #checkout-confirmation-cart,
+#checkout-confirmation-shipping {
   text-align: left;
   padding: 1em;
   max-width: 25em;
@@ -416,7 +435,31 @@ nav .in-header {
   border-right: 1px solid #CCCCCC;
 }
 
+.checkout-confirmation-cart-item {
+  margin: 2em 0;
+}
 
+.checkout-confirmation-cart-item img,
+.checkout-confirmation-cart-item div {
+  display: inline-block;
+}
+
+.cart-item {
+  margin-left: 1em;
+}
+
+.cart-item input {
+  width: 3em;
+  text-align: center;
+}
+
+.cart-item h4 {
+  display: inline;
+}
+
+.cart-item .remove {
+  font-size: 0.65em;
+}
 
 /*Begin home.html's css*/
 

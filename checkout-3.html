@@ -2,9 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Checkout 3 (Payment)</title>
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/grid.css">		
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/iconmoon.css">				
 	</head>
 	<body>
 
@@ -34,26 +36,36 @@
 			<div class="clear-float"></div>
 	  	</header>
 
-		<section id="checkout-steps">
-			<p>Checkout Steps 1-2-3-4</p>
-		</section>
-		<section id="checkout-payment">
-			<h2>Credit Card Info</h2>
-			<form method="post" action="#">
-				<label for="name">Name</label>
-				<input type="text" id="name" placeholder="Name">
-				<label for="cc-number">Credit Card Number</label>
-				<input type="text" id="cc-number" placeholder="Credit Card Number">
-				<label for="ccv">CCV</label>
-				<input type="text" id="ccv" placeholder="CCV">
-				<label for="expiry">Expiry Date (mmyy)</label>
-				<input type="text" id="expiry" placeholder="Expiry (mmyy)">
-				<button type="submit">Submit</button>
-			</form>
-		</section>
-		<section id="checkout-nav">
-			<a class="button" href="checkout-2.html">Back</a>
-			<a class="button cta" href="checkout-4.html">Next</a>
-		</section>
+	  	<section id="clear-header">	
+	  	</section>
+
+	  	<section id="checkout-title" class="grid">
+	  		<div class="col-10of10">
+	  			<h2>Checkout - Payment</h2>
+	  		</div>
+	  	</section>	  	
+
+	  	<div class="grid checkout-wrapper">
+	  		<div class="col-10of10">
+				<section id="checkout-payment">
+					<h3>Credit Card Info</h3>
+					<form method="post" action="#">
+						<label for="name">Name</label>
+						<input type="text" id="name" placeholder="Name">
+						<label for="cc-number">Credit Card Number</label>
+						<input type="text" id="cc-number" placeholder="Credit Card Number">
+						<label for="ccv">CCV</label>
+						<input type="text" id="ccv" placeholder="CCV">
+						<label for="expiry">Expiry Date (mmyy)</label>
+						<input type="text" id="expiry" placeholder="Expiry (mmyy)">
+						<!-- <button type="submit">Submit</button> -->
+					</form>
+				</section>
+				<section id="checkout-nav">
+					<a class="button" href="checkout-2.html">BACK</a>
+					<a class="button cta" href="checkout-4.html">NEXT</a>
+				</section>
+			</div>
+		</div>
 	</body>
 </html>

@@ -42,14 +42,14 @@
 
 	  	<section id="checkout-title" class="grid">
 	  		<div class="col-10of10">
-	  			<h2>Checkout - Sign In</h2>
+	  			<h2>Checkout - Addresses</h2>
 	  		</div>
 	  	</section>
 
 	  	<div class="grid checkout-wrapper">
 	  		<div class="col-5of10 separator">
 				<section id="checkout-billing-info">
-					<h2>Billing Address</h2>
+					<h3>Billing Address</h3>
 					<form method="post" action="#">
 						<label for="name">Name</label>
 						<input type="text" id="name" placeholder="Name">
@@ -57,7 +57,8 @@
 						<input type="text" id="address" placeholder="Address">
 						<label for="city">City</label>
 						<input type="text" id="city" placeholder="City">
-						<select>
+						<label for="province">Province</label>
+						<select id="province">
 							<option value="BC">BC</option>
 							<option value="AB">AB</option>
 							<option value="ON">ON</option>
@@ -70,20 +71,23 @@
 						<input type="email" id="email" placeholder="Email">
 						<label for="phone">Phone No.</label>
 						<input type="text" id="phone" placeholder="Phone No.">
-						<button type="submit">Submit</button>
+						<!-- <button type="submit">Submit</button> -->
 					</form>
 				</section>
 			</div>
 			<div class="col-5of10">
 				<section id="checkout-shipping-info">
-					<h2>Shipping Address</h2>
+					<h3>Shipping Address</h3>
 					<input type="checkbox" name="shipping-info" value="same" checked>Same as Billing
 				</section>
 			</div>
+			<div class="col-10of10">
+				<section id="checkout-nav">
+					<a class="button" href="checkout-1.html">BACK</a>
+					<a class="button cta" href="checkout-3.html">NEXT</a>
+				</section>
+			</div>
 		</div>
-		<section id="checkout-nav">
-			<a class="button" href="checkout-1.html">Back</a>
-			<a class="button cta" href="checkout-3.html">Next</a>
-		</section>
+
 	</body>
 </html>
