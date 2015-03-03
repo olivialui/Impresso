@@ -301,7 +301,8 @@ a.button {
 }
 a.button:hover, a.button:focus {
   /*background-color: #DDDDDD;*/;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid #E32805;
 }
 
 a.neg {
@@ -529,7 +530,7 @@ nav .in-header {
 }
 
 #social-media a:hover {
-  color: white;
+  color: #E32805;
 }
 
 
@@ -548,6 +549,20 @@ nav .in-header {
   background-image: url("img/sample.png");
   background-repeat: repeat;
 
+}
+
+
+.impresso-footer h3{
+  color: #CCC;
+}
+
+.impresso-footer a{
+  color: #FFF;
+}
+
+
+.impresso-footer a:hover{
+  color: #E32805;
 }
 
 
