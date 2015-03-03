@@ -156,6 +156,8 @@ nav a.active {
 
 #hamburger-menu {
   display: none;
+  color: white;
+  font-size: 1.5em;
 }
 
 .search-bar input {
@@ -300,6 +302,11 @@ a.button {
 a.button:hover, a.button:focus {
   /*background-color: #DDDDDD;*/;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+a.neg {
+  color: #800000;
+  border: 2px solid #800000;
 }
 
 a.cta {
@@ -470,6 +477,10 @@ nav .in-header {
   max-width: 100%;
   color: white;
 
+}
+
+#about-impresso p {
+  text-align: left;
 }
 
 .event-espresso{
