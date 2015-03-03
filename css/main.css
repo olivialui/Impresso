@@ -595,10 +595,19 @@ nav .in-header {
   margin: 0;
   padding: 10em;
   max-width: 100%;
-  color: black;
+  color: #333;
   background-position: 20% 60%;
 }
 
+
+.aeropress-feature-bg{
+  background: url("../img/aeropress.png");
+  margin: 0;
+  padding: 10em;
+  max-width: 100%;
+  color: #EEE;
+  background-position: 65% 80%;
+}
 
 
 .thankyou-bg{
