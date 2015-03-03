@@ -381,6 +381,10 @@ nav .in-header {
   padding: 0.5em ;
 }
 
+#product-categories>h2 {
+  text-align: center;
+}
+
 .product-img {
   height: auto; 
   width: auto;
@@ -401,8 +405,23 @@ nav .in-header {
   vertical-align: -0.1em;
 }
 
+#item-detail-cart {
+  position: absolute;
+  width: 20em;
+  top: 5.1em;
+  right: 0;
+  padding: 1em;
+  background-color: white;
+  border: 1px solid #CCCCCC;
+}
+
 .item-ratings {
 
+}
+
+.subtotal {
+  padding: 1em;
+  text-align: right;
 }
 
 #checkout-nav {
@@ -439,6 +458,11 @@ nav .in-header {
   margin: 0 auto;
 }
 
+.item-detail-cart-item {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 1em;
+}
+
 .separator {
   border-right: 1px solid #CCCCCC;
 }
@@ -447,6 +471,8 @@ nav .in-header {
   margin: 2em 0;
 }
 
+.item-detail-cart-item img,
+.item-detail-cart-item div,
 .checkout-confirmation-cart-item img,
 .checkout-confirmation-cart-item div {
   display: inline-block;
