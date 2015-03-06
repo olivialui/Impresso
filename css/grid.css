@@ -92,8 +92,7 @@
 }
 
 
-@media (max-width: 40rem){
-
+@media (max-width: 40rem){	
 	.col-2of10{
 		display: inline-block;
 		clear: both;
@@ -106,6 +105,11 @@
 		width: 100%;
 	}
 
+
+	.col-4of10{
+		width: 100%;
+	}
+
 	.col-5of10{
 		width: 100%;
 	}
@@ -113,10 +117,32 @@
 	.col-6of10{
 		width: 100%;
 	}
-	.col-3of10{
+
+}
+
+
+@media (max-width: 65rem){
+
+	.about-image{
+		padding: 7em 1em 2em 1em;
+	}
+
+	.col-4of10{
 		width: 100%;
 	}
 
+	.col-5of10{
+		width: 100%;
+	}
+
+	.saeco-minuto-feature{
+		padding: 7em 1em 2em 1em;
+	}
+
+
+	.event-tasting{
+		padding: 3em 1em 2em 1em;
+	}
 }
 
 
