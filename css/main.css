@@ -238,15 +238,15 @@ section code {
 }
 
 label {
-  font-size: 0.8em;
+  font-size: 0.75em;
   color: #CCCCCC;
 }
 
-input, textarea{
+input, textarea, select{
 
   display: block;
-  font-size: 0.8em;
-  padding: 0.5em;
+  font-size: 0.75em;
+  padding: 0.4em;
   margin: 0.2em 0.2em 0.7em 0.2em;
   border: 1px solid #999999;
 
@@ -260,7 +260,7 @@ input, textarea{
   margin-top: 0;
 }
 
-select {
+/*select {
   display: block;
   font-size: 1em;
   padding: 0.5em;
@@ -270,7 +270,7 @@ select {
   -moz-border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
-}
+}*/
 
 option {
   font-family: "Canaro-Light", sans-serif;
@@ -424,28 +424,22 @@ nav .in-header {
   text-align: right;
 }
 
-#checkout-nav {
-  border-top: 1px solid #CCCCCC;
-  margin: 1em;
-  padding: 1em;
-}
-
-#checkout-nav a.button {
-  float: left;
-}
-
-#checkout-nav a.cta {
-  float: right;
+.checkout-background {
+  /*background: url("../img/foto_originale_3426.jpg") no-repeat right center fixed;*/
+  background: url("../img/Light-Wood-Background.jpg");
+  /*background: url("../img/coffeelove.jpg") no-repeat center center fixed;*/
+  background-size: cover;
 }
 
 .checkout-wrapper {
   position: relative;
-  max-width: 64em;
+  background-color: white;
+  max-width: 45em;
   margin: 0 auto;
   border: 1px solid #CCCCCC;
   padding: 1em;
 
-  border-radius: 0.5em;
+  border-radius: 0em;
 }
 
 #checkout-sign-in, #checkout-skip-sign-in, 
@@ -458,6 +452,93 @@ nav .in-header {
   margin: 0 auto;
 }
 
+form>#name, form>#billing-address {
+  width: 22em;
+}
+
+form>#email {
+  width: 12em;
+  display: inline;
+}
+
+form>#phone {
+  width: 9em;
+  display: inline;
+}
+
+form>label {
+  display: block;
+}
+
+#label-name, #label-billing-address,
+#label-cc-info, #label-cc-number {
+  margin-top: 3em;
+}
+
+form>#city {
+  width: 16em;
+  display: inline;
+}
+
+form>#province {
+  width: 5em;
+  display: inline;
+  height: 2.4em;
+}
+
+form>#country {
+  display: inline;
+  width: 14em;
+}
+
+form>#postal-code {
+  display: inline;
+  width: 7em;
+}
+
+#label-shipping-address {
+  display: inline;
+  font-size: 0.8em;
+  color: #000000;
+}
+
+form #same-shipping-check-box {
+  width: 1.7em;
+  height: 1.7em;
+  display: inline;
+  margin: 3em 0;
+}
+
+form #cc-number {
+  display: inline;
+}
+
+label #ccv-label {
+  display: inline;
+}
+
+form #ccv {
+  display: inline;
+  width: 5em;
+}
+
+.checkout-next, .checkout-back {
+  position: relative;
+}
+
+.checkout-back>a {
+  position: absolute;
+  top: 1.3em;
+  left: -2em;
+  text-decoration: none;
+}
+
+.checkout-next>a.cta {
+  position: absolute;
+  right: 0;
+  bottom: 0em;
+}
+
 .item-detail-cart-item {
   border-bottom: 1px solid #CCCCCC;
   padding: 1em;
@@ -467,19 +548,47 @@ nav .in-header {
   border-right: 1px solid #CCCCCC;
 }
 
+h3.cart-total {
+  text-align: center;
+}
+
+section.cart-summary {
+  background-color: #EEEEEE;
+}
+
 .checkout-confirmation-cart-item {
-  margin: 2em 0;
+  margin: 2em auto;
+  padding: 0.5em;
+  border: 1px solid #CCCCCC;
+  width: 70%;
+}
+
+.checkout-confirmation-cart-item img {
+  width: 100%;
+  height: auto;
+}
+
+.cart-price {
+  top: 1em;
+  right: 1em;
+}
+
+.checkout-confirmation-cart-item p {
+  font-size: 0.6em;
+  margin: 0;
 }
 
 .item-detail-cart-item img,
 .item-detail-cart-item div,
-.checkout-confirmation-cart-item img,
-.checkout-confirmation-cart-item div {
   display: inline-block;
 }
 
 .cart-item {
   margin-left: 1em;
+}
+
+.cart-detail {
+  display: inline-block;
 }
 
 .cart-item input {
@@ -492,7 +601,7 @@ nav .in-header {
 }
 
 .cart-item .remove {
-  font-size: 0.65em;
+  font-size: 0.8em;
 }
 
 /*Begin home.html's css*/

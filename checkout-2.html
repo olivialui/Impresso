@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="css/iconmoon.css">
 	
 	</head>
-	<body>
+	<body class="checkout-background">
 
 	  	<header class="impresso-header">
 			<nav class="left-header">
@@ -49,52 +49,71 @@
 
 	  	<section id="checkout-title" class="grid">
 	  		<div class="col-10of10">
-	  			<h2>Checkout - Addresses</h2>
+	  			<h2>Step 1</h2>
 	  		</div>
 	  	</section>
 
 	  	<div class="grid checkout-wrapper">
-	  		<div class="col-5of10 separator">
+	  		<div class="col-7of10">
 				<section id="checkout-billing-info">
-					<h3>Billing Address</h3>
+					<div class="checkout-back">
+						<a href="checkout-1.html"><span class="icon-arrow-left2"></span></a>
+					</div>
+					<h3>Your Information</h3>
 					<form method="post" action="#">
-						<label for="name">Name</label>
+						<label id="label-name" for="name">Personal Info</label>
 						<input type="text" id="name" placeholder="Name">
-						<label for="address">Address</label>
-						<input type="text" id="address" placeholder="Address">
-						<label for="city">City</label>
+						<input type="email" id="email" placeholder="Email">
+						<input type="text" id="phone" placeholder="Phone">
+						<h4></h4>
+						<label id="label-billing-address" for="city">Billing Address</label>
+						<input type="text" id="billing-address" placeholder="Address">
 						<input type="text" id="city" placeholder="City">
-						<label for="province">Province</label>
 						<select id="province">
 							<option value="BC">BC</option>
 							<option value="AB">AB</option>
 							<option value="ON">ON</option>
 						</select>
-						<label for="postal-code">Postal Code</label>
-						<input type="text" id="postal-code" placeholder="Postal Code">
-						<label for="country">Country</label>
 						<input type="text" id="country" placeholder="Country">
-						<label for="email">Email</label>
-						<input type="email" id="email" placeholder="Email">
-						<label for="phone">Phone No.</label>
-						<input type="text" id="phone" placeholder="Phone No.">
+						<input type="text" id="postal-code" placeholder="Postal Code">
+						<div>
+							<input type="checkbox" id="same-shipping-check-box" name="shipping-info" value="same" checked> 
+							<label id="label-shipping-address">Ship to the same address.</label>
+						</div>
 						<!-- <button type="submit">Submit</button> -->
+						<div class="checkout-next">
+							<a class="button cta" href="checkout-3.html"><span class="icon-arrow-right2"></span></a>
+						</div>
 					</form>
+
 				</section>
 			</div>
-			<div class="col-5of10">
-				<section id="checkout-shipping-info">
-					<h3>Shipping Address</h3>
-					<input type="checkbox" name="shipping-info" value="same" checked>Same as Billing
-				</section>
-			</div>
-			<div class="col-10of10">
-				<section id="checkout-nav">
-					<a class="button neg" href="checkout-1.html">BACK</a>
-					<a class="button cta" href="checkout-3.html">NEXT</a>
+			<div class="col-3of10">
+				<section id="checkout-shipping-info" class="cart-summary">
+					<h3 class="cart-total">Your Total: $240.78</h3>
+
+					<div class="checkout-confirmation-cart-item">
+						<img src="img/Coava-Disk.jpg" alt="A picture of a Coava Disk on a table.">
+						<div class="cart-item">
+							<p>(Qty 1)</p>
+							<p>Coava Disk</p>
+							<h4>$19.99</h4>
+							<a class="remove" href="#"><span class="icon-bin"></span></a>
+						</div>
+					</div>
+					
+					<div class="checkout-confirmation-cart-item">
+						<img src="img/saeco-minuto-pure-transparent.png" alt="A picture of a Saeco Minute espresso machine." >
+						<div class="cart-item">
+							<p>(Qty 1)</p>
+							<p>Saeco Minuto</p>
+							<h4>$149.99</h4>
+							<a class="remove" href="#"><span class="icon-bin"></span></a>
+						</div>
+					</div>
+
 				</section>
 			</div>
 		</div>
-
 	</body>
 </html>

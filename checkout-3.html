@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/iconmoon.css">				
 	</head>
-	<body>
+	<body class="checkout-background">
 
 	  	<header class="impresso-header">
 			<nav class="left-header">
@@ -48,31 +48,62 @@
 
 	  	<section id="checkout-title" class="grid">
 	  		<div class="col-10of10">
-	  			<h2>Checkout - Payment</h2>
+	  			<h2>Step 2</h2>
 	  		</div>
 	  	</section>	  	
 
 	  	<div class="grid checkout-wrapper">
-	  		<div class="col-10of10">
+	  		<div class="col-7of10">
 				<section id="checkout-payment">
-					<h3>Credit Card Info</h3>
+					<div class="checkout-back">
+						<a href="checkout-2.html"><span class="icon-arrow-left2"></span></a>
+					</div>					
+					<h3>Your Payment</h3>
 					<form method="post" action="#">
-						<label for="name">Name</label>
+						<label id="label-cc-name" for="name">Name</label>
 						<input type="text" id="name" placeholder="Name">
-						<label for="cc-number">Credit Card Number</label>
+						<label id="label-cc-info" for="cc-number">Credit Card Info</label>
 						<input type="text" id="cc-number" placeholder="Credit Card Number">
-						<label for="ccv">CCV</label>
+						<!-- <label id="ccv-label" for="ccv">CCV</label> -->
 						<input type="text" id="ccv" placeholder="CCV">
 						<label for="expiry">Expiry Date (mmyy)</label>
 						<input type="text" id="expiry" placeholder="Expiry (mmyy)">
 						<!-- <button type="submit">Submit</button> -->
+						
 					</form>
-				</section>
-				<section id="checkout-nav">
-					<a class="button neg" href="checkout-2.html">BACK</a>
-					<a class="button cta" href="checkout-4.html">NEXT</a>
+					<div class="checkout-next">
+						<a class="button cta" href="checkout-4.html"><span class="icon-arrow-right2"></span></a>
+					</div>
 				</section>
 			</div>
+
+			<div class="col-3of10">
+				<section id="checkout-shipping-info" class="cart-summary">
+					<h3 class="cart-total">Your Total: $240.78</h3>
+
+					<div class="checkout-confirmation-cart-item">
+						<img src="img/Coava-Disk.jpg" alt="A picture of a Coava Disk on a table.">
+						<div class="cart-item">
+							<p>(Qty 1)</p>
+							<p>Coava Disk</p>
+							<h4>$19.99</h4>
+							<a class="remove" href="#"><span class="icon-bin"></span></a>
+						</div>
+					</div>
+					
+					<div class="checkout-confirmation-cart-item">
+						<img src="img/saeco-minuto-pure-transparent.png" alt="A picture of a Saeco Minute espresso machine." >
+						<div class="cart-item">
+							<p>(Qty 1)</p>
+							<p>Saeco Minuto</p>
+							<h4>$149.99</h4>
+							<a class="remove" href="#"><span class="icon-bin"></span></a>
+						</div>
+					</div>
+
+				</section>
+			</div>
+
 		</div>
 	</body>
 </html>
