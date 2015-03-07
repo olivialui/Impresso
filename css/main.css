@@ -377,6 +377,7 @@ nav .in-header {
 .product-categories {
   height: auto; 
   width: auto;
+  text-align: center;
   max-width: 100%;
   padding: 0.5em ;
 }
@@ -384,6 +385,11 @@ nav .in-header {
 #product-categories>h2 {
   text-align: center;
 }
+
+#product-categories p {
+  text-align: center;
+}
+
 
 .product-img {
   height: auto; 
@@ -607,23 +613,42 @@ section.cart-summary {
 /*Begin home.html's css*/
 
 .about-image{  
-  background: url("../img/coffee-beans-x1.jpg");
+  background: url("../img/Impresso.jpg") no-repeat;
+  background-size:cover;
   margin: 0;
   padding: 7em 5em 5em 5em;
   max-width: 100%;
-  color: white;
+  height: 50em;
+  }
 
+
+#about-impresso{
+  position: absolute;
+  top: 30%;
+  color: #fff;
 }
 
-#about-impresso p {
+
+#about-impresso p{
   text-align: left;
 }
 
+
+#events h2 {
+  text-align: center;
+}
+
+#events p {
+  text-align: center;
+}
+
+
 .event-espresso{
-  background: url("../img/Wood.jpg");
+  background: url("../img/mokapot-feature.jpg");
+  background-position: 80% 10%;
   padding: 2.3em;
-  color: white;
-  height: 20em
+  color: #000;
+  height: 20em;
 }
 
 .event-howtobrew{
@@ -771,7 +796,7 @@ section.cart-summary {
 }
 
 .thankyou-bg{
-  background: url("../img/Chalkboard.jpg");
+  background: url("../img/Light-Wood-Background.jpg");
   margin: 0;
   padding: 10em;
   max-width: 100%;
