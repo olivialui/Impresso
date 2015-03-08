@@ -188,9 +188,9 @@ section .wrapper {
 
 section .box {
   padding: 2em;
-  border-left: 1px solid #999999;
-  border-bottom: 1px solid #999999;
-  border-right: 1px solid #999999;
+  border-left: 1px solid #800000;
+  border-bottom: 1px solid #800000;
+  border-right: 1px solid #800000;
 
 }
 
@@ -353,6 +353,7 @@ a.img-link:hover, a.img-link:focus {
 }
 
 a.bread-crumbs{
+  color: #800000;
   font-size: 0.7rem;
   text-decoration: none;
 }
