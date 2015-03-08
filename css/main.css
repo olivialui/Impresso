@@ -110,7 +110,7 @@ h4 {
 
 #clear-header {
   padding: 0;
-  height: 5em;
+  height: 6em;
 }
 
 nav {
@@ -287,9 +287,7 @@ a.button {
   font-size: 0.8rem;
   display: inline-block;
   padding: 0.85em 1.1em 0.65em 1.1em;
-  /*color: #333333;*/
   color: #fff;
-  /*background-color: rgba(128, 0, 0, 0.7);*/
   border: 2px solid #fff;  
   text-decoration: none;
   -webkit-transition: background-color 0.1s ease-out;
@@ -303,8 +301,8 @@ a.button {
   border-radius: 0.5em;  
 }
 a.button:hover, a.button:focus {
-  /*background-color: #DDDDDD;*/;
   background-color: rgba(255, 255, 255, 0.3);
+  color: #FFF;
   border: 2px solid #FFF;
 }
 
@@ -316,16 +314,12 @@ a.neg {
 a.cta {
   color: white;
   background-color: #800000;
-  /*border: none;*/
-
-/*  -moz-border-radius: 0.5em;
-  -webkit-border-radius: 0.5em;
-  border-radius: 0.5em;*/
+  border: 2px solid #800000;
 }
 
 a.cta:hover, a.cta:focus {
-  background-color: rgba(128, 0, 0, 0.8);
-  border-color: rgba(128, 0, 0, 0.2);
+  background-color: rgba(128, 0, 0, 0.7);
+  border-color: rgba(128, 0, 0, 0.1);
   color: white;
 }
 
@@ -417,57 +411,91 @@ nav .in-header {
 
 #item-detail-cart {
   position: absolute;
-  width: 20em;
+  width: 26em;
+  min-height: 25em;
   top: 5.1em;
   right: 0;
   padding: 1em;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #CCCCCC;
 }
 
-.item-ratings {
-
-}
-
-.subtotal {
-  padding: 1em;
-  text-align: right;
+#item-detail-cart p {
+  font-size: 0.8em;
 }
 
 .checkout-background {
   /*background: url("../img/foto_originale_3426.jpg") no-repeat right center fixed;*/
   background: url("../img/Light-Wood-Background.jpg");
   /*background: url("../img/coffeelove.jpg") no-repeat center center fixed;*/
+  /*background: url("../img/Wood.jpg");*/
   background-size: cover;
 }
 
-.checkout-wrapper {
-  position: relative;
-  background-color: white;
-  max-width: 45em;
+.checkout-block-wrapper {
   margin: 0 auto;
-  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+
+.checkout-block {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 24em;
+  min-width: 20.8em;
+  min-height: 30em;
+  margin: 1em 0;
   padding: 1em;
 
   border-radius: 0em;
 }
 
+.checkout-block h3 {
+  text-align: center;
+  margin-top: 0;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 1em;
+}
+
+#checkout-customer-selection .checkout-block {
+  margin: 1em 0;
+  min-height: 24em;
+}
+
+#checkout-title {
+  position: relative;
+}
+
+
+
+#checkout-title a {
+  position: absolute;
+  text-decoration: none;
+  font-size: 2em;
+  left: 1em;
+  top: 0.7em;
+}
+
 #checkout-sign-in, #checkout-skip-sign-in, 
 #checkout-billing-info, #checkout-shipping-info,
-#checkout-payment, #checkout-confirmation-cart,
-#checkout-confirmation-shipping {
+#checkout-payment, #checkout-review, #checkout-place,
+#checkout-confirmation-cart,
+#checkout-confirmation-shipping, 
+.cart-summary {
   text-align: left;
   padding: 1em;
-  max-width: 25em;
+  max-width: 19em;
   margin: 0 auto;
 }
 
-form>#name, form>#billing-address {
+form>#name, form>#billing-address,
+form>#cc-name {
   width: 22em;
 }
 
-form>#email {
-  width: 12em;
+form>#email, form>#password {
+  width: 22em;
   display: inline;
 }
 
@@ -480,8 +508,10 @@ form>label {
   display: block;
 }
 
+#label-email,
+#checkout-skip-sign-in>p,
 #label-name, #label-billing-address,
-#label-cc-info, #label-cc-number {
+#label-cc-info, #label-cc-name {
   margin-top: 3em;
 }
 
@@ -494,6 +524,7 @@ form>#province {
   width: 5em;
   display: inline;
   height: 2.4em;
+  background-color: white;
 }
 
 form>#country {
@@ -512,45 +543,41 @@ form>#postal-code {
   color: #000000;
 }
 
-form #same-shipping-check-box {
-  width: 1.7em;
-  height: 1.7em;
+form>#same-shipping-check-box {
   display: inline;
-  margin: 3em 0;
+  margin: 1em 0;
 }
 
-form #cc-number {
+form>#cc-number {
   display: inline;
+  width: 16em;
 }
 
 label #ccv-label {
   display: inline;
 }
 
-form #ccv {
+form>#ccv {
   display: inline;
   width: 5em;
 }
 
-.checkout-next, .checkout-back {
-  position: relative;
+form>#expiry {
+  margin-bottom: 7em;
 }
 
-.checkout-back>a {
+.checkout-next {
   position: absolute;
-  top: 1.3em;
-  left: -2em;
-  text-decoration: none;
+  bottom: 2em;
+  right: 2em;
 }
 
 .checkout-next>a.cta {
-  position: absolute;
-  right: 0;
-  bottom: 0em;
+  min-width: 6em;
+  text-align: center;
 }
 
 .item-detail-cart-item {
-  border-bottom: 1px solid #CCCCCC;
   padding: 1em;
 }
 
@@ -562,15 +589,25 @@ h3.cart-total {
   text-align: center;
 }
 
-section.cart-summary {
+.cart-summary {
+  position: absolute;
+  top: 10em;
+  right: 0em;
+  width: 12em;
   background-color: #EEEEEE;
 }
 
+.cart-item-block {
+  display: block;
+  width: 30%;
+}
+
 .checkout-confirmation-cart-item {
-  margin: 2em auto;
+  display: inline-block;
+  margin: 1em auto 4em;
   padding: 0.5em;
-  border: 1px solid #CCCCCC;
-  width: 70%;
+  background-color: white;
+  width: 30%;
 }
 
 .checkout-confirmation-cart-item img {
@@ -586,6 +623,32 @@ section.cart-summary {
 .checkout-confirmation-cart-item p {
   font-size: 0.6em;
   margin: 0;
+}
+
+.checkout-payment-total,
+.checkout-review-total {
+  position: absolute;
+  bottom: 0.5em;
+}
+
+.checkout-payment-total p {
+  font-size: 0.8em;
+  margin-top: 0;
+}
+
+.checkout-payment-total h2 {
+  margin-bottom: 0;
+}
+
+#checkout-place p {
+  margin: 0;
+  font-size: 1em;
+}
+
+#checkout-place p:last-child {
+  margin: 2em 0;
+  font-size: 0.8em;
+  color: #999;
 }
 
 .item-detail-cart-item img,
@@ -698,11 +761,6 @@ section.cart-summary {
 }
 
 #social-media{
-
-  text-align: left;
-}
-
-#social-media h3{
   text-align: left;
 }
 
@@ -713,7 +771,8 @@ section.cart-summary {
   color: #AAAAAA;
 }
 
-#social-media a:hover {
+#social-media a:hover,
+#social-media a:focus {
   color: #FFF;
 }
 
@@ -733,12 +792,12 @@ section.cart-summary {
   color: #CCC;
 }
 
-.impresso-footer a{
-  color: #FFF;
+#site-map a {
+  color: #FFFFFF;
 }
 
-
-.impresso-footer a:hover{
+#site-map a:hover,
+#site-map a:focus {
   color: #E32805;
 }
 
@@ -758,6 +817,7 @@ section.cart-summary {
 .espresso-feature-bg{
   background: url("../img/espresso-shot.jpeg");
   background-size:cover;
+  background-position: center;
   margin: 0;
   padding: 13em;
   max-width: 100%;
@@ -815,7 +875,7 @@ section.cart-summary {
 
 .saeco-minuto-feature{
   background: url("../img/saecofeat.jpg");
-  background-position: cover;
+  background-size: cover;
   margin: 0;
   padding: 13em;
   max-width: 100%;

@@ -48,39 +48,28 @@
 
 	  	<section id="checkout-title" class="grid">
 	  		<div class="col-10of10">
-	  			<h2>Step 2</h2>
+	  			<a href="checkout-2.html"><span class="icon-arrow-left2"></span></a>
+	  			<h2>Almost There!</h2>
 	  		</div>
 	  	</section>	  	
 
-	  	<div class="grid checkout-wrapper">
-	  		<div class="col-7of10">
-				<section id="checkout-payment">
-					<div class="checkout-back">
-						<a href="checkout-2.html"><span class="icon-arrow-left2"></span></a>
-					</div>					
-					<h3>Your Payment</h3>
-					<form method="post" action="#">
-						<label id="label-cc-name" for="name">Name</label>
-						<input type="text" id="name" placeholder="Name">
-						<label id="label-cc-info" for="cc-number">Credit Card Info</label>
-						<input type="text" id="cc-number" placeholder="Credit Card Number">
-						<!-- <label id="ccv-label" for="ccv">CCV</label> -->
-						<input type="text" id="ccv" placeholder="CCV">
-						<label for="expiry">Expiry Date (mmyy)</label>
-						<input type="text" id="expiry" placeholder="Expiry (mmyy)">
-						<!-- <button type="submit">Submit</button> -->
-						
-					</form>
-					<div class="checkout-next">
-						<a class="button cta" href="checkout-4.html"><span class="icon-arrow-right2"></span></a>
-					</div>
+	  	<div class="checkout-block-wrapper">
+
+			<div class="checkout-block">
+				<section id="checkout-place">				
+					<h3>3. Confirm Your Address</h3>
+					<h2>Billy Neuvirth</h2>
+					<p>Ship To:
+					<p>3642 Camping Way</p>
+					<p>Burnaby, BC CANADA</p>
+					<p>V3K 5L2</p>
+					<p>Arriving March 9 (Monday). After you place your order, we'll send you an email with all the tracking details you need.</p>
 				</section>
 			</div>
 
-			<div class="col-3of10">
-				<section id="checkout-shipping-info" class="cart-summary">
-					<h3 class="cart-total">Your Total: $240.78</h3>
-
+			<div class="checkout-block">
+				<section id="checkout-review">				
+					<h3>4. Confirm Your Cart</h3>
 					<div class="checkout-confirmation-cart-item">
 						<img src="img/Coava-Disk.jpg" alt="A picture of a Coava Disk on a table.">
 						<div class="cart-item">
@@ -101,9 +90,14 @@
 						</div>
 					</div>
 
+					<div class="checkout-review-total">
+						<h2>$169.98</h2>
+					</div>
+					<div class="checkout-next">
+						<a class="button cta" href="thankyou.html">PLACE ORDER</a>
+					</div>
 				</section>
 			</div>
-
 		</div>
 	</body>
 </html>

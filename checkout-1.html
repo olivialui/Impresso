@@ -47,32 +47,42 @@
 
 	  	<section id="checkout-title" class="grid">
 	  		<div class="col-10of10">
-	  			<h2>Checkout - Sign In</h2>
+	  			<a href="item-detail.html"><span class="icon-arrow-left2"></span></a>
+	  			<h2>Checkout</h2>
 	  		</div>
 	  	</section>
 
-		<div class="grid checkout-wrapper">
-			<div class="col-5of10 separator">
+	  	<div id="checkout-customer-selection" class="checkout-block-wrapper">
+			<div class="checkout-block">
+				
 				<section id="checkout-sign-in">
 					<h3>Sign In</h3>
 					<form method="post" action="#">
-						<label for="email">Email</label>
+						<label id="label-email" for="email">Email</label>
 						<input type="email" id="email" placeholder="Email">
 						<label for="password">Password</label>
 						<input type="password" id="password" placeholder="Password">
-						<p><a href="" class="button cta">SUBMIT</a></p>
-						<!-- <button type="submit">SUBMIT</button> -->
+						<div class="checkout-next">
+							<a class="button cta" href="checkout-2.html">SIGN IN</a>
+						</div>
 					</form>
 				</section>
+
+				
 			</div>
-			<span class="divider"></span>
-			<div class="col-5of10">
+
+			<div class="checkout-block">
 				<section id="checkout-skip-sign-in">
-					<h3>Continue As Guest</h3>
-					<p>If you don't have an Impresso account, continue as a guest to complete your purchase. </p>
-					<a href="checkout-2.html" class="button cta">CONTINUE</a>
+					<h3>Or Continue As Guest</h3>
+					<p>If you don't have an Impresso account, continue as a guest to complete your purchase.</p>
+					<div class="checkout-next">
+						<a class="button cta" href="checkout-2.html">CONTINUE</a>
+					</div>
 				</section>
 			</div>
-		</section>
+
+
+
+		</div>
 	</body>
 </html>
