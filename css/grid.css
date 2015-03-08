@@ -78,9 +78,10 @@
 	}
 }
 
-@media (max-width: 46rem) {
+@media (max-width: 41.25rem) {
 	.checkout-block {
 		min-height: 0;
+		margin: 0.5em 0;
 	}
 
 	.col-33of10 {
@@ -111,6 +112,15 @@
 
 	#hamburger-menu {
 		padding-bottom: 0;
+	}
+
+	#item-detail-cart {
+		width: 100%;
+	}
+
+	.checkout-confirmation-cart-item {
+		width: 100%;
+		font-size: 1.5em;
 	}
 }
 

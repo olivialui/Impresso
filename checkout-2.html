@@ -34,10 +34,9 @@
 					<span class="icon-search"></span>
 				</div>
 				<div id="shopping-cart" class="sub-nav">
-					<!-- <img src="" alt="Your shopping cart" width="40px" height="40px"> -->
-					
-					<span class="icon-cart"></span>
-				
+					<a href="item-detail-cart.html">
+						<span class="icon-cart"></span>
+					</a>
 				</div>
 			</div>
 			<div class="clear-float"></div>
@@ -49,8 +48,11 @@
 
 	  	<section id="checkout-title" class="grid">
 	  		<div class="col-10of10">
-	  			<a href="checkout-1.html"><span class="icon-arrow-left2"></span></a>
+	  			<nav>
+	  				<a href="checkout-1.html"><span class="icon-arrow-left2"></span></a>
+	  			</nav>
 	  			<h2>Welcome, Guest</h2>
+	  			<span class="icon-lock secure"></span>
 	  		</div>
 	  	</section>
 
@@ -59,7 +61,7 @@
 
 		  	<div class="checkout-block">
 				<section id="checkout-billing-info">
-					<h3>1. Your Information</h3>
+					<h4>YOUR INFORMATION</h4>
 					<form method="post" action="#">
 						<label id="label-email" for="email">Personal Info</label>
 						<!-- <input type="text" id="name" placeholder="Name"> -->
@@ -88,7 +90,7 @@
 
 			<div class="checkout-block">
 				<section id="checkout-payment">				
-					<h3>2. Your Payment</h3>
+					<h4>PAYMENT</h4>
 					<form method="post" action="#">
 						<label id="label-cc-name" for="cc-name">Name</label>
 						<input type="text" id="cc-name" placeholder="Name">
