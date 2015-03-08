@@ -135,14 +135,18 @@
 		width: 100%;
 	}
 
-	.saeco-minuto-feature{
-		padding: 7em 1em 2em 1em;
+	.espresso-feature-bg{
+		padding: 1em;
 	}
-
 
 	.event-tasting{
 		padding: 3em 1em 2em 1em;
 	}
+
+	.saeco-minuto-feature{
+		padding: 7em 1em 2em 1em;
+	}
+
 }
 
 
