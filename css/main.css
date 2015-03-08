@@ -627,17 +627,24 @@ section.cart-summary {
 #about-impresso{
   position: absolute;
   top: 30%;
-  color: #fff;
-}
+  color: #fff;}
 
 
 #about-impresso p{
   text-align: left;
+  font-size: 1.2em;
+
 }
 
+#product-categories p{
+  font-size: 1.2em;
+}
+
+
 .events{
-  background-color: #CCC;
-  padding-bottom: 1em;
+  background: url('../img/office.png');
+  padding-top: 1em;
+
 }
 
 
@@ -669,9 +676,11 @@ section.cart-summary {
 .event-tasting{
   background: url("../img/Tasting.jpg");
   background-size: cover;
+  margin: 0em;
   padding: 10em;
   max-width: 100%;
   color: white;
+
 }
 
 #contact-us{
@@ -813,8 +822,9 @@ section.cart-summary {
 
 .saeco-minuto-feature{
   background: url("../img/saecofeat.jpg");
+  background-position: cover;
   margin: 0;
-  padding: 10em;
+  padding: 13em;
   max-width: 100%;
   color: #FFF;
   background-position: 95% 0%;

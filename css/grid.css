@@ -127,6 +127,10 @@
 		padding: 7em 1em 2em 1em;
 	}
 
+	.col-33of10{
+		width: 100%;
+	}
+
 	.col-4of10{
 		width: 100%;
 	}
