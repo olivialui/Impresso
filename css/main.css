@@ -819,13 +819,21 @@ h3.cart-total {
   background-size:cover;
   background-position: center;
   margin: 0;
-  padding: 13em;
+  padding: 1em;
+  height: 38em;
   max-width: 100%;
 }
 
 
 #about-espresso{
-    color: #fff;
+  color: #fff;
+  position: absolute;
+  top: 12em;
+  left: 10%;
+}
+
+#about-espresso h2 {
+  text-align: left;
 }
 
 
