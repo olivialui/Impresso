@@ -201,7 +201,7 @@ section {
 section .wrapper {
   display: inline-block;
   vertical-align: text-top;
-  margin: -1.5em 0.5em 1em 0.5em;
+  margin: -1.3em 0.5em 1em 0.5em;
   padding: 0.5em;
 }
 
@@ -938,10 +938,9 @@ h3.cart-total {
   font-size: 1.2em; 
 }
 
-.thankyou-bg{
-  background: url("../img/Light-Wood-Background.jpg");
+#thankyou{
   margin: 0;
-  padding: 10em;
+  padding: 13em;
   max-width: 100%;
   color: white;
 }

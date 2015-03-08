@@ -144,7 +144,7 @@
 	}
 
 	.col-5of10{
-		width: 75%;
+		width: 100%;
 	}
 
 	.col-6of10{
@@ -182,6 +182,11 @@
 
 	.saeco-minuto-feature{
 		padding: 7em 2em 2em 2em;
+	}
+
+	#thankyou{
+
+		padding: 5em 1em 2em 1em;
 	}
 
 }
