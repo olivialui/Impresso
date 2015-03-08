@@ -653,6 +653,7 @@ section.cart-summary {
 }
 
 #events p {
+  font-size: 1.1em;
   text-align: center;
 }
 
@@ -662,14 +663,14 @@ section.cart-summary {
   background-position: 80% 10%;
   padding: 2.3em;
   color: #000;
-  height: 20em;
+  height: 18em;
 }
 
 .event-howtobrew{
   background: url("../img/Chalkboard.jpg");
   padding: 2em;
   color: white;
-  height: 20em;
+  height: 18em;
 }
 
 
@@ -677,7 +678,7 @@ section.cart-summary {
   background: url("../img/Tasting.jpg");
   background-size: cover;
   margin: 0em;
-  padding: 10em;
+  padding: 5em;
   max-width: 100%;
   color: white;
 
@@ -727,13 +728,6 @@ section.cart-summary {
 }
 
 
-.bg-img{
-  background-image: url("img/sample.png");
-  background-repeat: repeat;
-
-}
-
-
 .impresso-footer h3{
   color: #CCC;
 }
@@ -761,24 +755,22 @@ section.cart-summary {
 }
 
 .espresso-feature-bg{
-  background: url("../img/espresso-shot.jpeg") no-repeat;
+  background: url("../img/espresso-shot.jpeg");
   background-size:cover;
   margin: 0;
-  padding: 6em 5em 5em 10em;
+  padding: 13em;
   max-width: 100%;
-  height: 37em;
 }
 
 
 #about-espresso{
-    position: absolute;
-    top: 30%;
     color: #fff;
 }
 
 
 #about-espresso p{
   text-align: left;
+  font-size: 1.2em;
 }
 
 
@@ -827,8 +819,11 @@ section.cart-summary {
   padding: 13em;
   max-width: 100%;
   color: #FFF;
-  background-position: 95% 0%;
+}
 
+.saeco-minuto-feature p{
+  text-align: left;
+  font-size: 1.2em; 
 }
 
 .thankyou-bg{
@@ -837,7 +832,6 @@ section.cart-summary {
   padding: 10em;
   max-width: 100%;
   color: white;
-  background-position: 20% 60%;
 }
 
 
