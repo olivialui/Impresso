@@ -7,6 +7,7 @@
   	<link href="css/main.css" rel="stylesheet">
   	<link href="css/grid.css" rel="stylesheet">
   	<link href="css/iconmoon.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  	
   </head>
   <body>
 
@@ -60,7 +61,7 @@
 
 	<section id="product-categories">
 		<h2>Products</h2>
-		<h4>WHICH PRODUCT IS RIGHT FOR YOU?</h4>
+		<h4>WHICH ONE IS RIGHT FOR YOU?</h4>
 		<div class="grid">
 			<div class="col-2of10">
 				<a class="img-link" href="espresso-product-listing.html">
@@ -68,24 +69,24 @@
 				<p><a href="espresso-product-listing.html">Espresso Machine</a></p>
 			</div>
 			<div class="col-2of10">
-				<a class="img-link" href="mokapot-product-listing.html">
+				<a class="img-link" href="espresso-product-listing.html">
 					<img class="product-categories" src="img/bialetti.jpg" alt="A product image of a classic, silver Bialetti moka pot."></a>
-				<p><a href="mokapot-product-listing.html">Moka Pot</a></p>
+				<p><a href="espresso-product-listing.html">Moka Pot</a></p>
 			</div>
 			<div class="col-2of10">
-				<a class="img-link" href="pod-product-listing.html">
+				<a class="img-link" href="espresso-product-listing.html">
 				<img class="product-categories" src="img/keurig.jpg" alt="A product image of a Keurig pod machine on a kitchen counter."></a>
-				<p><a href="pod-product-listing.html">Pod Coffee</a></p>
+				<p><a href="espresso-product-listing.html">Pod Coffee</a></p>
 			</div>
 			<div class="col-2of10">
-				<a class="img-link" href="frenchpress-product-listing.html">
+				<a class="img-link" href="espresso-product-listing.html">
 				<img class="product-categories" src="img/bodum-copper.jpg" alt="A product image of a Bodum French press in use."></a>
-				<p><a href="frenchpress-product-listing.html">French Press</a></p>
+				<p><a href="espresso-product-listing.html">French Press</a></p>
 			</div>
 			<div class="col-2of10">
-				<a class="img-link" href="aeropress-product-listing.html">
+				<a class="img-link" href="espresso-product-listing.html">
 				<img class="product-categories" src="img/aeropress.jpg" alt="A product image of an Aeropress beside a cup of coffee."></a>
-				<p><a href="aeropress-product-listing.html">Aero Press</a></p>
+				<p><a href="espresso-product-listing.html">Aero Press</a></p>
 			</div>
 		</div><!--End grid-->
 	</section>
@@ -161,6 +162,25 @@
 	</div>
 	</footer>
 	<!--End Footer-->
+
+	<section id="slide-out" class="so-hidden">
+		<input type="search" name="search-impresso" placeholder="Search">
+		<h3>MENU</h3>
+		<nav>
+			<a href="home.html#product-categories">PRODUCTS</a>
+			<a href="home.html#events">EVENTS</a>
+			<a href="home.html#contact">CONTACT</a>
+		</nav>
+	</section>
+
+    <script src="js/slide-out.js"></script>
+    
+    <!-- 
+      HTML5shiv allows IE below version 9 to work with HTML5 elements.
+      Note the conditionals before and after that do not load this script 
+      if browser is greater-than or equal-to IE9.
+    -->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 
 
   </body>

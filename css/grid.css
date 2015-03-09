@@ -112,6 +112,11 @@
 	.espresso-feature-bg {
 		background-position: 60%;
 	}
+
+	#about-espresso {
+		padding: 2em;
+		left: 0;
+	}
 }
 
 @media (max-width: 42.4375rem) {
@@ -205,6 +210,7 @@
 	#add-to-cart #item-description {
 		display: none;
 	}
+
 }
 
 @media(max-width: 23.5rem) {

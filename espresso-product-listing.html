@@ -6,7 +6,8 @@
 		<title>Product Listing</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/grid.css">
-		<link rel="stylesheet" href="css/iconmoon.css">			
+		<link rel="stylesheet" href="css/iconmoon.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	</head>
 	<body>
 
@@ -67,7 +68,9 @@
 			</div>
 
 			<div class="col-33of10">
-				<img class="product-categories" src="img/Cafe-aroma.jpg" alt="An image of a silver Cafe Aroma by Breville sitting on a kitchen counter on a sunny day.">
+				<a class="img-link" href="item-detail.html">
+					<img class="product-categories" src="img/Cafe-aroma.jpg" alt="An image of a silver Cafe Aroma by Breville sitting on a kitchen counter on a sunny day.">
+				</a>
 				<div class="wrapper box">				
 					<h3>Breville Cafe Aroma</h3>
 					<p>Thermoblock heating system extracts espresso at the perfect temperature. A full 15 bars of pressure maximizes crema for a rich, barista-style aroma and taste. Effortless frothing and foaming.</p>
@@ -75,7 +78,9 @@
 				</div>
 			</div>
 			<div class="col-33of10">
-				<img class="product-categories" src="img/nespresso.jpg" alt="An image of a red Nespresso Lattasima coffee machine sitting on a counter with a brick wall.">
+				<a class="img-link" href="item-detail.html">
+					<img class="product-categories" src="img/nespresso.jpg" alt="An image of a red Nespresso Lattasima coffee machine sitting on a counter with a brick wall.">
+				</a>
 				<div class="wrapper box">
 					<h3>Nespresso Lattissima and DeLonghi</h3>
 					<p>Created especially for coffee lovers, the simple single touch milk carafe and frothing system creates the most exotic blend straight to your cup.</p>
@@ -94,6 +99,26 @@
 			</div>
 		</div>
 	</section>
+
+	<section id="slide-out" class="so-hidden">
+		<input type="search" name="search-impresso" placeholder="Search">
+		<h3>MENU</h3>
+		<nav>
+			<a href="home.html#product-categories">PRODUCTS</a>
+			<a href="home.html#events">EVENTS</a>
+			<a href="home.html#contact">CONTACT</a>
+		</nav>
+	</section>
+
+    <script src="js/slide-out.js"></script>
+    
+    <!-- 
+      HTML5shiv allows IE below version 9 to work with HTML5 elements.
+      Note the conditionals before and after that do not load this script 
+      if browser is greater-than or equal-to IE9.
+    -->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+
 
 	</body>
 </html>
