@@ -203,6 +203,7 @@ section .wrapper {
   vertical-align: text-top;
   margin: -1.3em 0.5em 1em 0.5em;
   padding: 0.5em;
+  min-height: 21em;
 }
 
 
@@ -211,7 +212,6 @@ section .box {
   border-left: 1px solid #800000;
   border-bottom: 1px solid #800000;
   border-right: 1px solid #800000;
-
 }
 
 section code {
@@ -733,35 +733,46 @@ h3.cart-total {
 
 #about-impresso{
   position: absolute;
-  top: 30%;
+  top: 10em;
   color: #fff;}
 
 
 #about-impresso p{
-  text-align: left;
   font-size: 1.2em;
+}
 
+#product-categories {
+  min-height: 45em;
+  padding-top: 9em;
+}
+
+#product-categories h2,
+#events h2,
+#events h3 {
+  color: #D2691E;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 #product-categories p{
   font-size: 1.2em;
+  margin: 0;
 }
 
 
-.events{
-  background: url('../img/office.png');
+#events{
   padding-top: 1em;
-
-}
-
-
-#events h2 {
-  text-align: center;
+  /*background-color: #EEE;*/
+  border-bottom: 3px solid #EEE;
+  border-top: 3px solid #EEE;
+  margin-top: 3em;
 }
 
 #events p {
   font-size: 1.1em;
   text-align: center;
+
 }
 
 
@@ -770,14 +781,14 @@ h3.cart-total {
   background-position: 80% 10%;
   padding: 2.3em;
   color: #000;
-  height: 18em;
+  height: 22em;
 }
 
 .event-howtobrew{
   background: url("../img/Chalkboard.jpg");
   padding: 2em;
   color: white;
-  height: 18em;
+  height: 22em;
 }
 
 

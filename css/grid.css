@@ -70,6 +70,55 @@
 }
 
 
+@media (max-width: 65rem){
+
+	.about-image{
+		padding: 7em 1em 2em 1em;
+	}
+
+/*	.col-33of10{
+		width: 100%;
+	}*/
+
+	.col-4of10{
+		width: 100%;
+	}
+
+	.col-3of10 {
+		width: 50%;
+	}
+
+/*	.col-5of10{
+		width: 100%;
+	}
+
+	.espresso-feature-bg{
+		padding: 7em 2em 2em 2em;;
+	}*/
+
+/*	.event-tasting{
+		padding: 3em 1em 2em 1em;
+	}*/
+
+	.saeco-minuto-feature{
+		padding: 7em 2em 2em 2em;
+	}
+
+	#thankyou{
+
+		padding: 5em 1em 2em 1em;
+	}
+
+	#product-categories {
+		padding-top: 1em;
+	}
+
+	#site-map, #social-media {
+		margin-top: 5em;
+	}
+
+}
+
 
 @media (max-width: 59.375rem) {
 
@@ -86,6 +135,37 @@
 
 	.col-33of10 {
 		width: 100%;
+	}
+}
+
+@media (max-width: 40rem){	
+	.col-2of10{
+		display: inline-block;
+		clear: both;
+		width: 100%;
+	}
+
+	.col-33of10{
+		display: inline-block;
+		clear: both;
+		width: 100%;
+	}
+
+	.col-4of10{
+		width: 100%;
+	}
+
+	.col-5of10{
+		width: 100%;
+	}
+
+	.col-6of10{
+		width: 100%;
+	}
+
+	#about-impresso {
+		top: 5em;
+		margin: 0 2em;
 	}
 }
 
@@ -125,71 +205,10 @@
 }
 
 
-@media (max-width: 40rem){	
-	.col-2of10{
-		display: inline-block;
-		clear: both;
-		width: 100%;
-	}
-
-	.col-33of10{
-		display: inline-block;
-		clear: both;
-		width: 100%;
-	}
 
 
-	.col-4of10{
-		width: 100%;
-	}
-
-	.col-5of10{
-		width: 100%;
-	}
-
-	.col-6of10{
-		width: 100%;
-	}
-
-}
 
 
-@media (max-width: 65rem){
-
-	.about-image{
-		padding: 7em 1em 2em 1em;
-	}
-
-/*	.col-33of10{
-		width: 100%;
-	}*/
-
-	.col-4of10{
-		width: 100%;
-	}
-
-/*	.col-5of10{
-		width: 100%;
-	}
-
-	.espresso-feature-bg{
-		padding: 7em 2em 2em 2em;;
-	}*/
-
-	.event-tasting{
-		padding: 3em 1em 2em 1em;
-	}
-
-	.saeco-minuto-feature{
-		padding: 7em 2em 2em 2em;
-	}
-
-	#thankyou{
-
-		padding: 5em 1em 2em 1em;
-	}
-
-}
 
 
 
