@@ -76,9 +76,9 @@
 		padding: 7em 1em 2em 1em;
 	}
 
-/*	.col-33of10{
-		width: 100%;
-	}*/
+	.thankyou-background {
+		background-position: 50%;
+	}
 
 	.col-4of10{
 		width: 100%;
@@ -88,25 +88,8 @@
 		width: 50%;
 	}
 
-/*	.col-5of10{
-		width: 100%;
-	}
-
-	.espresso-feature-bg{
-		padding: 7em 2em 2em 2em;;
-	}*/
-
-/*	.event-tasting{
-		padding: 3em 1em 2em 1em;
-	}*/
-
 	.saeco-minuto-feature{
 		padding: 7em 2em 2em 2em;
-	}
-
-	#thankyou{
-
-		padding: 5em 1em 2em 1em;
 	}
 
 	#product-categories {
@@ -127,7 +110,7 @@
 	}
 }
 
-@media (max-width: 41.25rem) {
+@media (max-width: 42.4375rem) {
 	.checkout-block {
 		min-height: 0;
 		margin: 0.5em 0;
@@ -167,6 +150,16 @@
 		top: 5em;
 		margin: 0 2em;
 	}
+
+	#thankyou {
+		margin: 0 2em;
+		top: 9em;
+		width: initial;
+	}
+
+	.thankyou-background {
+		background-position: 75%;
+	}
 }
 
 
@@ -202,9 +195,19 @@
 		width: 100%;
 		font-size: 1.5em;
 	}
+
+	.saeco-minuto-feature,
+	.product-img,
+	#item-description {
+		display: none;
+	}
 }
 
-
+@media(max-width: 23.5rem) {
+	.col-3of10 {
+		width: 100%;
+	}
+}
 
 
 

@@ -448,6 +448,11 @@ nav .in-header {
   font-size: 0.8em;
 }
 
+.thankyou-background {
+  background: url("../img/coffeelove-optimized.jpg");
+  background-size: cover;
+  height: 38em;
+}
 
 .checkout-background {
   /*background: url("../img/foto_originale_3426.jpg") no-repeat right center fixed;*/
@@ -950,10 +955,10 @@ h3.cart-total {
 }
 
 #thankyou{
-  margin: 0;
-  padding: 13em;
-  max-width: 100%;
+  position: absolute;
   color: white;
+  top: 14em;
+  width: 100%;
 }
 
 
