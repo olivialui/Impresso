@@ -6,7 +6,7 @@
 
 [class^='col-']{
 	float: left;
-	padding 0;
+	padding: 0;
 	text-align: center;
 }
 
@@ -90,6 +90,10 @@
 
 	.saeco-minuto-feature{
 		padding: 7em 2em 2em 2em;
+	}
+
+	.product-img {
+		padding-top: 10em;
 	}
 
 	#product-categories {
@@ -196,9 +200,9 @@
 		font-size: 1.5em;
 	}
 
-	.saeco-minuto-feature,
-	.product-img,
-	#item-description {
+	#add-to-cart .saeco-minuto-feature,
+	#add-to-cart .product-img,
+	#add-to-cart #item-description {
 		display: none;
 	}
 }
@@ -208,14 +212,4 @@
 		width: 100%;
 	}
 }
-
-
-
-
-
-
-
-
-
-
 

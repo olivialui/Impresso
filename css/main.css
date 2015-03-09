@@ -417,6 +417,7 @@ nav .in-header {
   height: auto; 
   width: auto;
   max-width: 100%;
+  padding-top: 15%;
 }
 
 .item-details{
@@ -953,6 +954,7 @@ h3.cart-total {
   text-align: left;
   font-size: 1.2em; 
 }
+
 
 #thankyou{
   position: absolute;
