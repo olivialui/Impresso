@@ -97,7 +97,7 @@
 	}
 
 	#product-categories {
-		padding-top: 1em;
+		padding-top: 13em;
 	}
 
 	#site-map, #social-media {
@@ -156,8 +156,12 @@
 	}
 
 	#about-impresso {
-		top: 5em;
+		top: 13em;
 		margin: 0 2em;
+	}
+
+	#product-categories {
+		padding-top: 0em;
 	}
 
 	#thankyou {
