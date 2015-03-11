@@ -73,7 +73,7 @@
 @media (max-width: 65rem){
 
 	.about-image{
-		padding: 7em 1em 2em 1em;
+		padding: 7em 0em 2em 0em;
 	}
 
 	.thankyou-background {
@@ -90,10 +90,6 @@
 
 	.saeco-minuto-feature{
 		padding: 7em 2em 2em 2em;
-	}
-
-	.product-img {
-		padding-top: 10em;
 	}
 
 	#product-categories {
@@ -200,6 +196,10 @@
 		padding-bottom: 0;
 	}
 
+	h1 {
+		font-size: 3rem;
+	}
+
 	#item-detail-cart {
 		width: 100%;
 	}
@@ -209,7 +209,7 @@
 		font-size: 1.5em;
 	}
 
-	#add-to-cart .saeco-minuto-feature,
+	#add-to-cart #about-saeco,
 	#add-to-cart .product-img,
 	#add-to-cart #item-description {
 		display: none;
@@ -221,5 +221,6 @@
 	.col-3of10 {
 		width: 100%;
 	}
+
 }
 
